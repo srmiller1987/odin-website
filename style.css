@@ -1,0 +1,51 @@
+header, footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+/* header link color/size same as section one secondary text */
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.headertext {
+    font-size: 24px;
+}
+
+.section-one {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.section-two {
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.section-four {
+}
+
+.s-four-box {
+    background-color: #3882F6;
