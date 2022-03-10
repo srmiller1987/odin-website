@@ -1,22 +1,64 @@
-header, footer {
-    background-color: #1f2937;
-    color: #e5e7eb;
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 10em;    
 }
-/* header link color/size same as section one secondary text */
+
+img {
+}
 
 button {
     background-color: #3882f6;
     color: #e5e7eb;
 }
 
+a {
+    text-decoration: none;
+    color: #e5e7eb
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 1.5em;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    padding: 0 25px;
+}
+
+
+header, footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+/* header link color/size same as section one secondary text */
+
+header {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .headertext {
-    font-size: 24px;
+    font-size: 1.75em;
+    font-weight: bolder;
 }
 
 .section-one {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    display: flex;
+}
+
+.section-one-left {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
 }
 
 .hero {
@@ -49,3 +91,4 @@ button {
 
 .s-four-box {
     background-color: #3882F6;
+}
